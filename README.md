@@ -13,10 +13,16 @@ import testing
 # returns 'I prefer water'
 testing.statepreference('water')
 ```
-## Other Thoughts
+## Other Things
+*italics*
+_italics_
+**bold**
+\*asterisk
+\_underscore
 
-Gulp.
 
 ## Reference
 
 [makeareadme.com](https://www.makeareadme.com/)
+[tutorial](https://commonmark.org/help/tutorial/)
+
