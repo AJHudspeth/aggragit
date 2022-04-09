@@ -14,13 +14,54 @@ import testing
 testing.statepreference('water')
 ```
 ## Other Things
-*italics*
+### Emphasis
+*italics* 
+
 _italics_
+
 **bold**
+
 \*asterisk
+
 \_underscore
 
+### Block Quotes
+> First line
+> Another line
+> 
+>> Nested line
+>> 
+> Last Line
 
+### Lists
+* lift
+* pull
+* push
+
+1. left
+2. right
+3. forward
+
+### Code
+Inline 'code'
+
+    indent 4 spaces
+    
+
+``` 
+or use 3 backticks
+```
+### Nested Lists
+* Clean
+    1. data
+    2. bedroom
+    3. ears
+* Check
+  - attitude
+  - work
+  - boxes
+* Close
+ 
 ## Reference
 
 [makeareadme.com](https://www.makeareadme.com/)
