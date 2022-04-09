@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   font-size: 48px;
 }
-h1{
+
+h1 {
   font-size: 2rem;
 }
