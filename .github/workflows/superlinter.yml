@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Run super-Linter #linter is a check on syntax, make sure standards of the lanquage are met
+      - name: Run Super-Linter #linter is a check on syntax, make sure standards of the lanquage are met
         uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: main
