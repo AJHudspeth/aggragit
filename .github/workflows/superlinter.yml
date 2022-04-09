@@ -1,0 +1,19 @@
+name: Super-Linter
+
+# event that triggers workflow yaml file, which will run all jobs in workflow
+on: push
+# single job below with two steps
+jobs:
+  super-lint:
+    name: Lint code base
+    runs-on: ubuntu-latest #runs on parameter, runner, aka container env 
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Run super-Linter #linter is a check on syntax, make sure standards of the lanquage are met
+        uses: github/super-linter@v3
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
+       
