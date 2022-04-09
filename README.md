@@ -1,5 +1,5 @@
 # aggragit
-Aggragate "whole formed by combining several (typically disparate) elements" 
+Aggragate "whole formed by combining several (typically disparate) elements."
 
 ## Resources
 
@@ -15,22 +15,19 @@ testing.statepreference('water')
 ```
 ## Other Things
 ### Emphasis
-*italics* 
 
-_italics_
+Either _asterisk_\* or _underscore_\*  will create _italics_. If you mix the syntax, linter will throw an error. Good practice is _consistency_.
 
-**bold**
+Double **asterisks** will create **boldface**.
 
-\*asterisk
-
-\_underscore
+\* Literal asterisks and underscores (e.g. attempt\_1) that are not used for italics need to follow a backslash.
 
 ### Block Quotes
 > First line
 > Another line
-> 
+>
 >> Nested line
->> 
+>>
 > Last Line
 
 ### Lists
@@ -43,13 +40,11 @@ _italics_
 3. forward
 
 ### Code
-Inline 'code'
+Inline 'code' can be inserted by indenting with 4 spaces or with 3 backticks. I used backticks above. I'll stay consistent to please the linter.
 
-    indent 4 spaces
-    
-
-``` 
-or use 3 backticks
+```python
+# or use 3 backticks and specify code in the fenced
+import pandas as pd
 ```
 ### Nested Lists
 * Clean
@@ -61,7 +56,7 @@ or use 3 backticks
   - work
   - boxes
 * Close
- 
+
 ## Reference
 
 [makeareadme.com](https://www.makeareadme.com/)
