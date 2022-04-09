@@ -1,8 +1,10 @@
+---
 ##################
 name: Super-Linter
 
 
-# State events that triggers workflow yaml file, which will run all jobs in workflow
+# State events to trigger workflow yml file, 
+# yml file will run all jobs in workflow
 # Start the job on all pushes
 
 on: push
@@ -21,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      # linter is a check on syntax, make sure standards of the lanquage are met
+      # linter: a syntax check to ensure standards of the lanquage are met
       - name: Run Super-Linter 
         uses: github/super-linter@v4
         env:
